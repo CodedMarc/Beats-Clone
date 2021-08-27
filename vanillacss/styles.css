@@ -1,0 +1,373 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #212121;
+  overflow-x: hidden;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10%;
+}
+.navbar-brand {
+  font-family: "Poppins", sans-serif !important;
+  color: red;
+  font-size: 2rem;
+  margin-left: 5%;
+  text-decoration: none;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(31, 31, 31);
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.nav-ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  margin-right: 9%;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+.nav-ul a {
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 1rem;
+  display: block;
+  transition: 1s color ease;
+}
+.nav-ul li {
+  list-style: none;
+}
+.nav-ul a:hover {
+  color: red;
+  transition: 1s ease;
+}
+.toggle-button {
+  position: absolute;
+  top: 1.5rem;
+  right: 3rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 25px;
+  height: 18px;
+}
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: white;
+  border-radius: 1px;
+}
+.header-title-studio {
+  position: relative;
+  left: 1000px;
+  margin-top: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 4rem;
+  text-align: center;
+  color: whitesmoke;
+}
+.header-title-studio2 {
+  position: relative;
+  left: 1000px;
+  margin-top: -1rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 4rem;
+  text-align: center;
+  color: whitesmoke;
+}
+.second-title {
+  position: relative;
+  left: 1000px;
+  margin-top: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 4rem;
+  text-align: center;
+  color: whitesmoke;
+}
+.second-title2 {
+  position: relative;
+  left: 1000px;
+  margin-top: -1rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 4rem;
+  text-align: center;
+  color: whitesmoke;
+}
+#studio-buds {
+  position: relative;
+  left: -1000px;
+  font-family: "Open Sans", sans-serif;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 5% 10%;
+  min-height: 90vh;
+}
+#beats-flex {
+  position: relative;
+  left: 1200px;
+  font-family: "Open Sans", sans-serif;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 5% 10%;
+  min-height: 90vh;
+  border-bottom: 1px solid white;
+}
+#beats-flex h3 {
+  color: whitesmoke;
+}
+#powerbeats {
+  position: relative;
+  left: 1000px;
+  font-family: "Open Sans", sans-serif;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 5% 10%;
+  min-height: 90vh;
+}
+#powerbeats h3 {
+  color: whitesmoke;
+}
+#powerbeats-pro {
+  position: relative;
+  left: -1000px;
+  font-family: "Open Sans", sans-serif;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 5% 10%;
+  min-height: 90vh;
+}
+#powerbeats-pro h3 {
+  color: whitesmoke;
+}
+#studio-buds h3 {
+  color: whitesmoke;
+}
+.price {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.price span {
+  margin-top: 10px;
+}
+.price h1 {
+  background-color: rgb(255, 255, 255);
+  color: rgb(22, 22, 22);
+  padding-right: 0.7rem;
+  padding-left: 0.2rem;
+  font-size: min(37px, max(28px, 0.845066vw + 24.831px));
+  text-transform: uppercase;
+  display: inline;
+  font-weight: 900;
+  line-height: 1.4;
+  letter-spacing: -0.8px;
+  padding-top: 1px;
+  box-shadow: 7px 0 0 #161616, -7px 0 0 #161616;
+  word-break: keep-all;
+  position: relative;
+  z-index: 1;
+}
+.circles-container {
+  margin-top: 1rem;
+  width: 150px;
+  height: auto;
+  display: flex;
+}
+.circle1 {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background-color: #090a0b;
+}
+.circle2 {
+  position: relative;
+  left: -10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background-color: #d0d1d3;
+}
+.circle3 {
+  position: relative;
+  left: -20px;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background-color: #b10212;
+}
+.flex-circle1 {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background-color: #2b2b2b;
+}
+.flex-circle2 {
+  position: relative;
+  left: -10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background-color: #f3fb97;
+}
+.flex-circle3 {
+  position: relative;
+  left: -20px;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background-color: #adddf3;
+}
+.flex-circle4 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: -30px;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background-color: #212121;
+  border: 1px solid white;
+}
+.description1 {
+  color: white;
+  line-height: 2.2rem;
+}
+.description1 ul {
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+.dollar-price {
+  color: white;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+.buttons {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 20px;
+}
+.buyNow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border: 1px solid black;
+  font-family: "Poppins", sans-serif;
+  padding: 5px 30px;
+  font-size: 1rem;
+  font-weight: 900;
+  border-radius: 100px;
+}
+.buyNow:active {
+  background-color: black;
+  color: whitesmoke;
+}
+.learnMore:active {
+  background-color: whitesmoke;
+  border: 2px solid black;
+  color: black;
+}
+.learnMore {
+  background-color: rgba(0, 0, 0, 0);
+  color: whitesmoke;
+  border: 2px solid whitesmoke;
+  font-family: "Poppins", sans-serif;
+  padding: 5px 30px;
+  font-size: 1rem;
+  font-weight: 900;
+  border-radius: 100px;
+}
+.fa-apple {
+  position: relative;
+  top: -7px;
+  left: 7px;
+  font-size: 1.5rem;
+}
+
+.new {
+  color: red;
+}
+.img1 {
+  width: 100%;
+  min-height: auto;
+}
+.limited {
+  font-size: 1rem;
+  margin-top: 1rem;
+  margin-bottom: -15px;
+}
+.strikethrough {
+  font-size: 0.8rem;
+  text-decoration: line-through;
+  color: rgba(255, 255, 255, 0.2);
+}
+
+@media screen and (max-width: 767px) {
+  .toggle-button {
+    display: flex;
+  }
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .nav-ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+  .nav-ul.active {
+    display: flex;
+  }
+  .nav-ul a:active {
+    color: red;
+  }
+  .header-title-studio {
+    font-size: 2.5rem;
+  }
+  .header-title-studio2 {
+    font-size: 2.5rem;
+  }
+  .second-title {
+    font-size: 2.5rem;
+  }
+  .second-title2 {
+    font-size: 2.5rem;
+  }
+  #studio-buds {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  #powerbeats {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  #powerbeats-pro {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  #beats-flex {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .price {
+    margin-top: 2rem;
+  }
+}
