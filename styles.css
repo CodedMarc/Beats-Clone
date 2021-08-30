@@ -6,10 +6,13 @@
 
 body {
   background-color: #212121;
+}
+html,
+body {
   max-width: 100%;
   overflow-x: hidden;
+  height: auto !important;
 }
-
 .logo {
   display: flex;
   justify-content: center;
@@ -107,6 +110,7 @@ nav {
   color: whitesmoke;
 }
 #studio-buds {
+  overflow-x: hidden;
   position: relative;
   left: -1000px;
   font-family: "Open Sans", sans-serif;
@@ -116,6 +120,7 @@ nav {
   min-height: 90vh;
 }
 #beats-flex {
+  overflow-x: hidden;
   position: relative;
   left: 1200px;
   font-family: "Open Sans", sans-serif;
@@ -129,6 +134,7 @@ nav {
   color: whitesmoke;
 }
 #powerbeats {
+  overflow-x: hidden;
   position: relative;
   left: 1000px;
   font-family: "Open Sans", sans-serif;
@@ -141,6 +147,7 @@ nav {
   color: whitesmoke;
 }
 #powerbeats-pro {
+  overflow-x: hidden;
   position: relative;
   left: -1000px;
   font-family: "Open Sans", sans-serif;
