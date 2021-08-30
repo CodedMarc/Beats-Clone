@@ -6,12 +6,10 @@
 
 body {
   background-color: #212121;
-  max-width: 100vw;
+  position: relative;
   overflow-x: hidden;
 }
-html {
-  overflow-x: hidden;
-}
+
 .logo {
   display: flex;
   justify-content: center;
