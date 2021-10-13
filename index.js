@@ -12,35 +12,35 @@ toggleButton.addEventListener('click', () => {
     gsap.to('#beats-flex', {
         scrollTrigger: {
             trigger: '#studio-buds',
-            start: 'bottom center'
+            start: 'center center'
         },
         x:-1200
     });
     gsap.to('.second-title', {
         scrollTrigger: {
             trigger: '#beats-flex',
-            start: 'bottom center'
+            start: 'center center'
         },
         x:-1000
     });
     gsap.to('.second-title2', {
         scrollTrigger: {
             trigger: '#beats-flex',
-            start: 'bottom center'
+            start: 'center center'
         },
         x:-1000
     });
     gsap.to('#powerbeats', {
         scrollTrigger: {
             trigger: '#beats-flex',
-            start: 'bottom center'
+            start: 'center center'
         },
         x:-1000
     });
     gsap.to('#powerbeats-pro', {
         scrollTrigger: {
             trigger: '#powerbeats',
-            start: 'bottom center'
+            start: 'center center'
         },
         x:1000
     });

@@ -9,7 +9,7 @@ body {
 }
 html,
 body {
-  max-width: 100%;
+  max-width: 100vw;
   overflow-x: hidden;
   height: auto !important;
 }
@@ -111,6 +111,7 @@ nav {
 }
 #studio-buds {
   overflow-x: hidden;
+  max-width: 100vw;
   position: relative;
   left: -1000px;
   font-family: "Open Sans", sans-serif;
@@ -121,6 +122,7 @@ nav {
 }
 #beats-flex {
   overflow-x: hidden;
+  max-width: 100vw;
   position: relative;
   left: 1200px;
   font-family: "Open Sans", sans-serif;
@@ -135,6 +137,7 @@ nav {
 }
 #powerbeats {
   overflow-x: hidden;
+  max-width: 100vw;
   position: relative;
   left: 1000px;
   font-family: "Open Sans", sans-serif;
@@ -148,6 +151,7 @@ nav {
 }
 #powerbeats-pro {
   overflow-x: hidden;
+  max-width: 100vw;
   position: relative;
   left: -1000px;
   font-family: "Open Sans", sans-serif;
@@ -326,6 +330,35 @@ nav {
   font-size: 0.8rem;
   text-decoration: line-through;
   color: rgba(255, 255, 255, 0.2);
+}
+
+.container-footer {
+  padding: 5% 5% 0% 5%;
+  background-color: #161616;
+  color: whitesmoke;
+  font-family: "Poppins", sans-serif;
+  min-height: 30vh;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.container-footer h1 {
+  font-size: 1rem;
+}
+.container-footer ul,
+li {
+  list-style: none;
+}
+
+.icon-container {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.icon-container i {
+  margin: 20px;
 }
 
 @media screen and (max-width: 767px) {
