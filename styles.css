@@ -334,10 +334,10 @@ nav {
 
 .container-footer {
   padding: 5% 5% 0% 5%;
-  background-color: #161616;
+  background-color: black;
   color: whitesmoke;
   font-family: "Poppins", sans-serif;
-  min-height: 30vh;
+  min-height: 20vh;
   text-align: center;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -411,5 +411,13 @@ li {
   }
   .price {
     margin-top: 2rem;
+  }
+  .container-footer h1 {
+    font-size: 1rem;
+  }
+  .container-footer ul,
+  li {
+    font-size: 12px;
+    list-style: none;
   }
 }
